@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google Lens Experiment - Video Overlay</title>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.googleapis.com",
+  "@type": "ARArtifact",
+  "arTarget": {
+    "@type": "ARImageTarget",
+    "name" : "Test Video Overlay",
+    "image": "https://github.com/psotresc/testLens/blob/main/image01.png"
+  },
+  "arContent": {
+    // The value of arContent.@type must be VideoObject for immersive content.
+    "@type": "VideoObject",
+    // Add a headline that you want Lens to display in the result card.
+    "name": "Test Google Lens Video Overlay",
+    // Add an embed YouTube URL to the video content to serve as the immersive content.
+    "contentUrl": "https://github.com/psotresc/testLens/blob/main/image01.mp4",
+    // Optional: Add an image to display as the hero image.
+    "image": "OPTIONAL_HERO_IMAGE_URL",
+    // Add an absolute link to the page that opens when the end user taps the immersive content.
+    "url": "https://www.google.com/search?q=google+lens+video&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjulYbQ9MDyAhWpm-AKHWXgBRcQ_AUoAXoECAEQAw&biw=1080&bih=1727",
+    "publisher": {
+      // The value of publisher.@type must be set to Organization.
+      "@type": "Organization",
+      // Add the name of the content publisher.
+      "name": "Google CW",
+      // Add an absolute link to the publisher logo.
+      "logo": "https://www.trecebits.com/wp-content/uploads/2015/09/google.jpg"
+    }
+  }
+}
+</script>
+  
+
+</head>
+
+<body>
+
+<h1>This is a Google Lens Experiment - Video Overlay</h1>
+
+<img src='https://github.com/psotresc/testLens/blob/main/image01.png?raw=true'>
+<img src='https://www.digitallearning.es/wp-content/uploads/2017/03/Test_cuadrado.jpg'>
+</body>
+</html>
